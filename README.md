@@ -1,18 +1,28 @@
-🎥 React Camera App
-A sleek, modern React-based web app that lets users start/stop their webcam feed, capture images, and interact with a stylish UI. Built using React hooks (useState, useEffect, useRef) and the MediaDevices API for accessing the camera.
+# 🎥 React Camera App  
 
-🚀 Features
-📷 Start/Stop Camera – Toggle your webcam feed effortlessly.
-🖼️ Capture Image – Take snapshots with a click.
-🎨 Modern UI – Posh dark-themed interface with intuitive controls.
-⚡ Built with React – Leverages React hooks for seamless functionality.
-🛠️ Tech Stack
-Frontend: React, JavaScript, HTML, CSS
-APIs Used: navigator.mediaDevices.getUserMedia()
-📂 Project Structure
-bash
-Copy
-Edit
+A sleek, modern React-based web app that lets users **start/stop** their webcam feed, capture images, and interact with a stylish UI. Built using **React hooks** (`useState`, `useEffect`, `useRef`) and the **MediaDevices API** for accessing the camera.  
+
+---
+
+## 🚀 Features  
+
+✅ **Start/Stop Camera** – Toggle your webcam feed effortlessly.  
+🖼️ **Capture Image** – Take snapshots with a click.  
+🎨 **Modern UI** – Posh dark-themed interface with intuitive controls.  
+⚡ **Built with React** – Leverages **React hooks** for seamless functionality.  
+
+---
+
+## 🛠️ Tech Stack  
+
+- **Frontend**: React, JavaScript, HTML, CSS  
+- **APIs Used**: `navigator.mediaDevices.getUserMedia()`  
+
+---
+
+## 📂 Project Structure  
+
+```bash
 /camera-app
 │── src/
 │   ├── components/
