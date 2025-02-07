@@ -1,0 +1,88 @@
+/* General styling */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: linear-gradient(135deg, #1a1a1a, #333333); /* Dark gradient background */
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* Main App styling */
+.App {
+  text-align: center;
+  padding: 20px;
+  color: #fff; /* White text for contrast */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Camera Preview */
+.camera-preview video {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
+  border: 1px solid #444; /* Subtle border to fit the dark theme */
+}
+
+/* Control Buttons */
+.controls {
+  margin: 30px 0;
+}
+
+.controls button {
+  background-color: #444; /* Darker button color */
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  padding: 15px 30px;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+  margin: 0 15px;
+  text-transform: uppercase;
+}
+
+.controls button:hover {
+  background-color: #555; /* Slightly lighter hover effect */
+  transform: scale(1.05);
+}
+
+.controls button:disabled {
+  background-color: #666;
+  cursor: not-allowed;
+}
+
+/* Gallery Display */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.image-card {
+  border: 1px solid #444;
+  padding: 10px;
+  width: 200px;
+  border-radius: 15px;
+  background: #222; /* Dark background for images */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
+}
+
+.image-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.image-card p {
+  font-size: 14px;
+  color: #bbb; /* Light gray text for description */
+  margin-top: 10px;
+  font-weight: 500;
+}
